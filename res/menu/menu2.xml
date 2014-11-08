@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+  
+    <item android:id="@+id/logout"             
+          android:title="@string/logout"
+          />
+    
+    <item android:id="@+id/abudget"             
+          android:title="@string/abudget"
+          />
+    <item android:id="@+id/calc"             
+          android:title="@string/calc"
+          />
+    <item
+        android:id="@+id/aboutus"        
+        android:title="@string/credits"/>
+    <item android:id="@+id/tog"
+        android:title="@string/Switchb"
+        android:icon="@drawable/tog"
+        android:showAsAction="always"
+         />
+</menu>

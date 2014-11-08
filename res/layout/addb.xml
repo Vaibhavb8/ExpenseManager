@@ -1,0 +1,66 @@
+                                        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:id="@+id/add_b"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/gradient2"
+                        tools:context=".Addb" >
+        
+        <LinearLayout
+            style="@style/LoginFormContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/aexpense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="30dp"
+                android:text="@string/ebudget"
+                android:textSize="20sp"
+                android:textColor="#2d2f31" />
+
+            
+
+            <EditText
+                android:id="@+id/budgetentry"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/field"
+                
+                android:hint="@string/bud"                
+                android:inputType="number"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/addbud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/custombutton"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:text="@string/abudget"
+                
+                android:textColor="#2d2f31"
+                
+                 />
+
+            
+            
+        </LinearLayout>
+       
+
+    </ScrollView>
+    
+
+

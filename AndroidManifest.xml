@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dvs.expensemanager"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.dvs.expensemanager.HomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dvs.expensemanager.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.dvs.expensemanager.SecHomescreen"
+            android:label="@string/title_activity_sec_homescreen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dvs.expensemanager.Signup"
+            android:label="@string/title_activity_signup"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dvs.expensemanager.Success"
+            android:label="@string/modeselect"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dvs.expensemanager.Test"
+            android:label="@string/title_activity_test"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dvs.expensemanager.Det"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dvs.expensemanager.Ret"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dvs.expensemanager.Addbu"
+            android:label="@string/abudget"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dvs.expensemanager.Displaylist"
+            android:label="@string/title_activity_displaylist" >
+        </activity>
+        <activity
+            android:name="com.dvs.expensemanager.Displaydetlist"
+            android:label="@string/title_activity_displaylist" >
+        </activity>
+        <activity
+            android:name="com.dvs.expensemanager.About"
+            android:label="@string/credits" >
+        </activity>
+    </application>
+
+</manifest>

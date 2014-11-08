@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient4b"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Det" >
+
+    <TextView
+        android:id="@+id/det"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        android:text="@string/det" />
+
+    <ImageView
+        android:id="@+id/detmsg"
+        android:layout_width="190dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/det"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/detmsg" android:contentDescription="@string/det"/>
+
+    <TextView
+        android:id="@+id/expenseview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:background="@drawable/custombutton"
+         />
+
+    <TextView
+        android:id="@+id/avail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detmsg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="Arial"
+        android:text="@string/avail"
+        android:textSize="15sp" />
+    
+    <Button
+         android:id="@+id/addExp"
+         android:layout_width="129.2dp"
+         android:layout_height="70.3dp"
+         android:layout_centerHorizontal="true"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="25dp"
+         android:background="@drawable/custombutton4"
+         android:onClick="addexp"
+         android:gravity="center"
+         
+          />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/expenseview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:textSize="18sp"
+         />
+
+</RelativeLayout>

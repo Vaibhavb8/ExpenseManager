@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Expense Manager</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="welmsg">WELCOME</string>
+    <string name="t">TextView</string>
+    <string name="loginmsg">Login or Setup your Profile</string>
+    <string name="title_activity_sec_homescreen">SecHomescreen</string>
+    <string name="button1">Log In</string>
+    <string name="button2">Sign Up</string>
+    <string name="header">Expense Manager</string>
+    <string name="logo">Main Logo</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="prompt_name">User Name</string>
+    <string name="prompt_expend">Expected Monthly Expenditure</string>
+    <string name="prompt_cpassword">Confirm Password</string>
+    <string name="title_activity_success">Success</string>
+    <string name="spclmsg">The Final Pitstop to all your Expense managemement and tracking needs</string>
+    <string name="heading">Tracking Mode Selection</string>
+    <string name="NewEx">New Expense</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_det">Det</string>
+    <string name="title_activity_ret">Ret</string>
+    <string name="det">Daily Expense Tracking</string>
+    <string name="avail">Available Budget</string>
+    <string name="eexpense">Enter Expense</string>
+    <string name="aexpense">Add Expense</string>
+    <string name="expense">Expense</string>
+    <string name="edexpense">Enter Date and Expense</string>
+    <string name="logout">Logout</string>
+    <string name="modeselect">Mode Selection</string>
+    <string name="abudget">Add Budget</string>
+    <string name="ebudget">Enter the Amount to be Added</string>
+    <string name="bud">Budget</string>
+    <string name="notavail">Feature Not Available</string>
+    <string name="calc">Calculator</string>
+    <string name="ret">Rigorous Expense Tracking</string>
+    <string name="retadd">Expense Information</string>
+    <string name="cat">Category</string>
+    <string name="price">Price</string>
+    <string name="quant">Quantity</string>
+    <string name="Switchb">Switch Mode</string>
+    <string name="check">Include in Daily Expense Tracker</string>
+    <string name="last">Last Expense</string>
+    <string name="title_activity_displaylist">Expense List</string>
+    <string name="credits">Credits</string>
+<string name="connect">Contact us</string>
+</resources>
