@@ -17,6 +17,7 @@ In addition to that it has a profile creation feature i.e. a user can maintain m
 P.s. This app is still in the Beta phase and updates will be rolling out soon to fix any bugs found. We hope this application proves useful and is able to help the user manage their expenditure.
 Feedback will be highly appreciated.
 
-Regards
+Regards,
+
 Vaibhav Bhasin
 
