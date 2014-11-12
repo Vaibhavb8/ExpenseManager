@@ -1,7 +1,8 @@
 ExpenseManager
 ==============
 
-https://play.google.com/store/apps/details?id=com.dvs.expensemanager
+Application : https://play.google.com/store/apps/details?id=com.dvs.expensemanager
+Video : https://www.youtube.com/watch?v=w1uTdKAjnh0
 
 EXPENSE MANAGER performs all the basic functions of expense tracking and finance management which ensures users to keep a track of their financial transactions without breaking a sweat.
 To suit various user groups this application is equipped with the feature of Multiple Tracking Modes which makes different tracking methods available to the users according to their needs.
